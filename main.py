@@ -7,7 +7,9 @@ if __name__ == '__main__':
     pygame.init()
 
     # 화면 크기 설정
-    screen_width, screen_height = 1000, 800
+    screen_width, screen_height = 400, 700
+
+
     screen = pygame.display.set_mode((screen_width, screen_height))
 
     # 창 제목 설정
